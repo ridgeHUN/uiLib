@@ -2,9 +2,7 @@ local runService = game:GetService("RunService")
 local textService = game:GetService("TextService")
 local inputService = game:GetService("UserInputService")
 local tweenService = game:GetService("UserInputService")
-if getgenv().library then
-    getgenv().library:Unload()
-end
+
 local library = {
     tabs = {},
     draggable = true,
